@@ -36,9 +36,9 @@ class Sorter {
 }
 ```
 Lorsque "Union Type" est utilisé comme dans l'exemple ci-dessus, 
-**seules les méthodes et propriétés aux deux types seront accessibles. En effet typescript rend les autres inaccessible**.
+**seules les méthodes et propriétés possibles aux pour ces deux types seront accessibles. En effet typescript rend les autres inaccessible**.
 
-Pour rémédier à cette sitution les "Types Guards" sont une solution. Qui vont nous permettre de spécifier dans chaque situation, ce que nous allons faire. 
+Pour remédier à cette sitution les "Types Guards" sont une solution, qui va nous permettre de spécifier dans chaque situation ce que nous allons faire. 
 
 ##### Second implementation
 
